@@ -1,0 +1,187 @@
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10%;
+        background-color: #edcfa9;
+    }
+    
+    li,
+    a {
+        display: inline;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        color: #d57149;
+        text-decoration: none;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    h1 {
+        display: block;
+        color: d57149;
+        font-size: 40px;
+    }
+    
+    a:hover {
+        color: #aa4a30;
+        transition: all 0.1s ease 0s;
+    }
+    
+    button {
+        background-color: #e0ece4;
+        font-size: 16px;
+        font-weight: 700;
+        border: 2x solid;
+        padding: 5px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: white;
+        transition: all 0.1s ease 0s;
+    }
+    
+    section {
+        margin: auto;
+        margin-top: 100px;
+        justify-content: center;
+        max-width: 1000px;
+    }
+    
+    .container-info {
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding: 25px;
+        border-radius: 5px;
+    }
+    
+    .text-container-one {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.8;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    
+    .splash {
+        display: flex;
+    }
+    
+    .image-container-one {
+        display: inline-block;
+        float: right;
+        height: 350px;
+    }
+    
+    footer {
+        color: #edcfa9;
+        position: absolute;
+        bottom: 0;
+        background-color: #d57149;
+        width: 100%;
+        font-weight: normal;
+    }
+    
+    #footer-font-size {
+        font-size: 10px;
+        color: black;
+    }
+    
+    #footer-place {
+        text-align: right;
+        padding-right: 20px;
+    }
+    
+    #info {
+        display: flex;
+    }
+    
+    textarea {
+        resize: none;
+    }
+    /* "Contact us" page created using: https://www.youtube.com/watch?v=AmeTQHcsUgQ */
+    
+    .container {
+        justify-content: center;
+        text-align: center;
+        width: 800px;
+        height: 600px;
+        margin: 45px;
+        padding: 25px;
+        border-radius: 5px;
+    }
+    
+    .container p {
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    /* 
+.input refeeres to ALL input methods
+<input type="text" class="" placeholder=""> 
+*/
+    
+    .input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 30px;
+        outline: none;
+        border-radius: 5px;
+        border-width: thick;
+        transition: all 0.5s ease;
+    }
+    
+    .info .input {
+        width: 50%;
+        float: left;
+        border-width: thick;
+    }
+    
+    footer {
+        color: white;
+        position: absolute;
+        bottom: 0;
+        background-color: #edcfa9;
+    }
+    
+    .message .input {
+        width: 100%;
+        height: 200px;
+        font-size: 14;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .button {
+        width: 250px;
+        background: #797a7e;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        text-transform: uppercase;
+        margin: 10px auto;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .textarea {
+        resize: none;
+    }
+    
+    #center {
+        margin: auto;
+    }
+    
+    h3 {
+        font-size: 46;
+    }
